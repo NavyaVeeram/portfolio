@@ -1,0 +1,126 @@
+
+<p>Topics I am Expertise In..</p>
+<Container  className='m-5' >
+  <Row>
+    <Col xs={3}>
+<Button variant="primary" onClick={() => setShow(true)} style={{color:'white',background:'#c770f0',width:'200px',height:'200px',borderRadius:'30px'}}>
+       HTML
+      </Button>
+
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <Modal.Header closeButton style={{color:'#c770f0'}}>
+          <Modal.Title id="example-custom-modal-styling-title">
+           Html 
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p className='text-dark'>
+          <p>Introduction to HTML</p>
+<ul>
+  <li> What is HTML</li>
+<li> HTML Documents</li>
+<li>Basic structure of an HTML document</li>
+<li>Creating an HTML document</li>
+<li> Mark up Tags</li>
+<li>Heading-Paragraphs</li>
+<li>Line Breaks</li>
+<li>HTML Tags.</li>
+</ul>
+<p>
+Elements of HTML</p>
+<ul>
+<li> Introduction to elements of HTML</li>
+<li>Working with Text</li> 
+<li>Working with Lists, Tables and Frames</li>
+<li>Working with Hyperlinks, Images and Multimedia</li>
+</ul>
+          </p>
+        </Modal.Body>
+      </Modal>
+      </Col>
+      <Col xs={3}>
+      <Button variant="primary" onClick={() => setShow(true)} style={{color:'white',background:'#c770f0',width:'200px',height:'200px',borderRadius:'30px'}}>
+       CSS
+      </Button>
+
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <Modal.Header closeButton style={{color:'#c770f0'}}>
+          <Modal.Title id="example-custom-modal-styling-title">
+           CSS
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p className='text-dark'>
+      <p> Concept of CSS</p>
+      <ul>
+<li>Creating Style Sheet</li> 
+<li> CSS Properties</li> 
+<li>CSS Styling(Background, Text Format, Controlling Fonts)</li> 
+<li>Working with block elements and objects</li> 
+<li> Working with Lists and Tables</li> 
+<li>CSS Id and Class</li> 
+<li> Box Model(Introduction, Border properties, Padding</li> 
+Properties, Margin properties) 
+<li>CSS Advanced(Grouping, Dimension, Display,</li> 
+<li>Positioning, Floating, Align,Pseudo class, Navigation Bar,</li> 
+Image Sprites, Attribute sector)
+<li> CSS Color</li> 
+<li> Creating page Layout and Site Designs. </li> 
+</ul>
+          </p>
+        </Modal.Body>
+      </Modal>
+      </Col>
+      <Col xs={3}>
+<Button variant="primary" onClick={() => setShow(true)} style={{color:'white',background:'#c770f0',width:'200px',height:'200px',borderRadius:'30px'}}>
+       Javascript
+      </Button>
+
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <Modal.Header closeButton style={{color:'#c770f0'}}>
+          <Modal.Title id="example-custom-modal-styling-title">
+           Javascript
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p className='text-dark'>
+          <p>Introduction to HTML</p>
+<ul>
+  <li> What is HTML</li>
+<li> HTML Documents</li>
+<li>Basic structure of an HTML document</li>
+<li>Creating an HTML document</li>
+<li> Mark up Tags</li>
+<li>Heading-Paragraphs</li>
+<li>Line Breaks</li>
+<li>HTML Tags.</li>
+</ul>
+<p>
+Elements of HTML</p>
+<ul>
+<li> Introduction to elements of HTML</li>
+<li>Working with Text</li> 
+<li>Working with Lists, Tables and Frames</li>
+<li>Working with Hyperlinks, Images and Multimedia</li>
+</ul>
+          </p>
+        </Modal.Body>
+      </Modal>
+      </Col>
+      </Row>
+<Container>

@@ -1,0 +1,124 @@
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background:black;
+}
+/*home.css*/
+.name{
+   font-weight: 800;
+   color:#fff;
+   font-size: 3.75rem;
+   line-height: 1;
+}
+.fullstack{
+    font-weight: 800;
+    /* color:rgb(59 130 246 ); */
+    color: #c770f0;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.fav:hover{
+  box-shadow: 5px 5px 10px  #c770f0, -5px -5px 10px  #c770f0, 5px -5px 10px  #c770f0, -5px 5px 10px #c770f0;
+}
+/*about css*/
+.bye{
+font-size: 50px;
+animation: bye 1s linear infinite;
+}
+@keyframes bye{
+    0% {
+        transform:  rotate(0deg);
+      }
+      30% {
+        transform:  rotate(10deg);
+      }
+      70% {
+        transform: rotate(-10deg); 
+      }
+      100% {
+        transform:  rotate(0deg);
+      }
+    }
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  /* background-image: url('https://images.pexels.com/photos/2892619/pexels-photo-2892619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat; */
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.text {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg,#a811ee, #fff, #ad1df0);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s linear infinite;
+  background-clip: initial;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.custom-progress-purple .progress-bar {
+  background-color: #c770f0;
+}
+body {
+  background-color: #010a3d;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.rain-drop {
+  position: fixed;
+  top: -50px;
+  font-size: 24px;
+  animation: rainFall 5s linear infinite;
+}
+
+@keyframes rainFall {
+  0% {
+    top: -50px;
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}
+
+/* Different delays and positions for each star */
+.rain-drop:nth-child(1) { left: 10%; animation-delay: 0s; }
+.rain-drop:nth-child(2) { left: 15%; animation-delay: 1s; }
+.rain-drop:nth-child(3) { left: 20%; animation-delay: 2s; }
+.rain-drop:nth-child(4) { left: 25%; animation-delay: 3s; }
+.rain-drop:nth-child(5) { left: 30%; animation-delay: 4s; }
+.rain-drop:nth-child(6) { left: 35%; animation-delay: 5s; }
+.rain-drop:nth-child(7) { left: 40%; animation-delay: 6s; }
+.rain-drop:nth-child(8) { left: 45%; animation-delay: 7s; }
+.rain-drop:nth-child(9) { left: 50%; animation-delay: 8s; }
+.rain-drop:nth-child(10) { left: 55%; animation-delay: 9s; }
+.rain-drop:nth-child(11) { left: 60%; animation-delay: 10s; }
+.rain-drop:nth-child(12) { left: 65%; animation-delay: 11s; }
+.rain-drop:nth-child(13) { left: 70%; animation-delay: 12s; }
+.rain-drop:nth-child(14) { left: 75%; animation-delay: 13s; }
+.rain-drop:nth-child(15) { left: 80%; animation-delay: 14s; }
