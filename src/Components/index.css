@@ -80,9 +80,6 @@ body {
 body {
   background-color: #010a3d;
   margin: 0;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
 }
 
 .rain-drop {
