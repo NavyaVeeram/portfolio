@@ -22,8 +22,8 @@ function Skills() {
         <div>
         
          <h1 className='text-center text p-5'> Skills</h1>
-         <Container className='m-5'>
-  <Container className='d-flex align-items-center justify-content-between mb-3'>
+         <Container className='mt-5'>
+  <Container className='d-flex align-items-center justify-content-between  mb-3'>
     <span>HTML</span>
     <ProgressBar className='w-50 custom-progress-purple' animated now={html} label={`${html}%`} />
   </Container>

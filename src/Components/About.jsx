@@ -30,7 +30,7 @@ function About() {
    
 </Row>
         </Container>
-        <Container className='m-5 bg-light text-dark p-5 rounded'>
+        <Container className='bg-light text-dark p-5 rounded'>
       <Row>
         <span className='display-3mb-4' style={{color:'#c770f0'}}>Hello there! <MdOutlineWavingHand className='bye' /></span>
         <p className='lead'>I'm <span><b>Navya <span style={{ color: '#c770f0' }}>Veeram</span></b></span>, a passionate and dedicated web developer with a flair for crafting elegant and user-friendly solutions. My journey in the world of programming began with a fascination for turning ideas into interactive and visually appealing websites.</p>

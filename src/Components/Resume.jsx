@@ -15,7 +15,7 @@ function Resume() {
         <div className='d-flex align-items-center justify-content-center'>
 <button onClick={downloadResume} className=' btn' style={{backgroundColor:'#c770f0',color:'white'}}>Download Resume</button>
 </div>
-<Container className='bg-light text-dark p-5 m-5'>
+<Container className='bg-light text-dark p-5 mt-3'>
     <div className='text-center'>
 <h1>Navya Veeram</h1>
 <p>Tirupati, Andharpradesh | navyaveeram@gmail.com | 9963362947</p>

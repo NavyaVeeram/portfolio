@@ -6,13 +6,13 @@ import Nav from 'react-bootstrap/Nav';
 const ProjectItem = ({ title, description, git,mediaSrc, mediaType, githubLink }) => {
   return (
     <Row className='d-flex bg-light text-dark mb-4'>
-      <Col>
+      <Col sm={6} md={6}>
         <span style={{ fontSize: '30px', color: '#c770f0' }}><b>{title}</b></span>
         <p className='mt-2'><b>Description:</b></p>
         <span className='mt-2' style={{fontFamily:'cursive'}}>{description}</span>
         <Nav.Link href={githubLink} style={{ color: '#c770f0' }}>{git}</Nav.Link>
       </Col>
-      <Col className='p-0'>
+      <Col sm={6} md={6} className='p-0'>
         {mediaType === 'video' ? (
           <video controls style={{ width: '100%', height: 'auto' }}>
             <source src={mediaSrc} type="video/mp4" />
