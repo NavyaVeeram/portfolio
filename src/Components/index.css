@@ -119,3 +119,8 @@ body {
 .rain-drop:nth-child(13) { left: 70%; animation-delay: 12s; }
 .rain-drop:nth-child(14) { left: 75%; animation-delay: 13s; }
 .rain-drop:nth-child(15) { left: 80%; animation-delay: 14s; }
+/*Navbar */
+.custom-toggler {
+  background-color: #c770f0;
+  border-color: #fff;
+}

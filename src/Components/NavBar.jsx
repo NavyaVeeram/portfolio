@@ -14,8 +14,8 @@ function NavBar() {
     <Navbar expand="lg" className="bg-transparent">
       <Container>
         <Navbar.Brand href="/home"><h3 style={{fontWeight:'900',color:'#fff'}}>Navya <span style={{color:'#c770f0'}}>Veeram</span></h3></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
+        <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="mx-auto">
             <Nav.Link href="/"><span style={{fontSize:'20px',color:'#fff'}}><FaHome/>Home</span></Nav.Link>
             <Nav.Link href="/about"><span style={{fontSize:'20px',color:'#fff'}}><IoPersonOutline />About</span> </Nav.Link>
@@ -24,7 +24,7 @@ function NavBar() {
             <Nav.Link href="/resume"><span style={{fontSize:'20px',color:'#fff'}}><RiNewspaperLine />Resume</span></Nav.Link>
             {/* <Nav.Link href="/blog"><span style={{fontSize:'20px',color:'#fff'}}><BsVectorPen />Blog</span></Nav.Link> */}
     
-           
+      
           </Nav>
           <Nav className='ms-auto'>
           <Nav.Link href="https://github.com/NavyaVeeram"><FaGithub style={{fontSize:'40px',color:'#c770f0'}} /></Nav.Link>
