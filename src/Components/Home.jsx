@@ -11,23 +11,6 @@ function Home() {
        
     return (
         <>
-        <div class="layer-1">
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">🌟</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">🌛</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">🌜</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">✨</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">⭐</div>
-    <div class="rain-drop">🌙</div>
-  </div>
   <Container className='p-5'>
     <Row>
     <Col className='col-sm-12 col-md-6 col-12'>
@@ -40,7 +23,7 @@ function Home() {
 <p className='pt-5 mb-4'>"Crafting seamless user experiences from front to back, a full stack developer blends creativity with logic, turning lines of code into digital masterpieces."</p>
 
  <Link as={Link} to="/contact" style={{background:'#c770f0',color:'white',padding:'10px',borderRadius:'10px',margin:'4px'}}>Contact Me</Link>
-<Link as={Link} to="/resume" style={{background:'white',color:'black',padding:'10px',borderRadius:'10px'}}>Resume</Link>
+<Link as={Link} to="" style={{background:'white',color:'black',padding:'10px',borderRadius:'10px'}} target="_blank">Resume</Link>
 
 </div>
         </div>

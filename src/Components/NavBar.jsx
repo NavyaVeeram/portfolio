@@ -28,7 +28,7 @@ function NavBar() {
           </Nav>
           <Nav className='ms-auto'>
           <Nav.Link href="https://github.com/NavyaVeeram"><FaGithub style={{fontSize:'40px',color:'#c770f0'}} /></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/navya-veeram-85a23a211/"><FaLinkedin style={{fontSize:'40px',color:'#c770f0'}} /></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/navya-veeram"><FaLinkedin style={{fontSize:'40px',color:'#c770f0'}} /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
