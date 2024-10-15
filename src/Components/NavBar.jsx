@@ -8,7 +8,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { PiTelevisionLight } from "react-icons/pi";
 import { RiNewspaperLine } from "react-icons/ri";
 // import { BsVectorPen } from "react-icons/bs";
-import { GiSkills } from "react-icons/gi";
+import { GiPhone, GiSkills } from "react-icons/gi";
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-transparent">
@@ -22,7 +22,8 @@ function NavBar() {
             <Nav.Link href="/projects"><span style={{fontSize:'20px',color:'#fff'}}><PiTelevisionLight />Projects</span></Nav.Link>
             <Nav.Link href="/skills"><span style={{fontSize:'20px',color:'#fff'}}><GiSkills />Skills</span></Nav.Link>
             <Nav.Link href="/resume"><span style={{fontSize:'20px',color:'#fff'}}><RiNewspaperLine />Resume</span></Nav.Link>
-            {/* <Nav.Link href="/blog"><span style={{fontSize:'20px',color:'#fff'}}><BsVectorPen />Blog</span></Nav.Link> */}
+            <Nav.Link href="/contact"><span style={{fontSize:'20px',color:'#fff'}}><GiPhone />Contact</span></Nav.Link>
+             {/* <Nav.Link href="/blog"><span style={{fontSize:'20px',color:'#fff'}}><BsVectorPen />Blog</span></Nav.Link> */}
     
       
           </Nav>

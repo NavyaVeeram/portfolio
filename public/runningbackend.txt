@@ -1,0 +1,3 @@
+
+to know the data submissiion run http://localhost:8000/api/form-data/1/ in the backend
+you can also run http://localhost:8000/api/form-data/
