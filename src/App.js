@@ -8,7 +8,7 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Footer from './Components/Footer';
-import Resume from './Components/Resume';
+// import Resume from './Components/Resume';
 import Form from './Components/Form'
 function App() {
      return(
@@ -22,7 +22,7 @@ function App() {
   <Route path='/about' element={<About />}/>
   <Route path='/projects' element={<Projects />}/>
   <Route path='/skills' element={<Skills/>}/>
- <Route path='/resume'  element={<Resume />}/>
+ // <Route path='/resume'  element={<Resume />}/>
  <Route path='/contact' element={<Form />}/>
 </Routes>
 <Footer />
